@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" style="margin: 20px">Listas</a>
+            <a href="tabela.html" style="margin: 20px">Tabelas</a>
+            <a href="outros.html" style="margin: 20px">Outros</a>
+            <a href="atividade.html" style="margin: 20px">Atividade</a>
+            <!-- <a href="Javascript.html" style="margin: 20px">Javascript</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <h1>Atividades - listas e tabelas</h1>
+        <br>
+        <h2>3 estilos de listas sobre o que tenho aprendido em programação</h2>
+        <br>
+
+        <h3>Ordenada</h3>
+        <ol>
+            <li>Introdução a computação</li>
+            <li>Terminal</li>
+            <li>VSCode</li>
+            <li>HTML</li>
+            <li>Git e Github</li>
+        </ol>
+        <br>
+
+        <h3>Não ordenada</h3>
+        <ul>
+            <li>HTML</li>
+            <li>Git e Github</li>
+            <li>VSCode</li>
+            <li>Introdução a computação</li>
+            <li>Terminal</li>
+        </ul>
+        <br>
+
+        <h3>Lista com descrições</h3>
+        <dl>
+            <dt><strong>Introdução a computação</strong></dt>
+            <dd>Segunda semana</dd>
+            <dt><strong>Terminal</strong></dt>
+            <dd>Segunda semana</dd>
+            <dt><strong>VSCode</strong></dt>
+            <dd>Terceira semana</dd>
+            <dt><strong>HTML</strong></dt>
+            <dd>Terceira e quarta semana</dd>
+            <dt><strong>Git e Github</strong></dt>
+            <dd>Quarta semana</dd>
+        </dl>
+        <br>
+
+        <h2>Tabela com os itens da lista com descrições</h2>
+        <table border="1" style="border: solid 5px gray;">
+            <thead>
+                <style>
+                    td {
+                        padding: 20px;
+                    }
+
+                    th {
+                        padding: 20px;
+                    }
+
+                    tr:nth-child(even) {
+                        background-color: gray;
+                    }
+                </style>
+                <tr>
+                    <th>Introdução a computação</th>
+                    <th>Terminal</th>
+                    <th>VSCode</th>
+                    <th colspan="2">HTML</th>
+                    <th>Git e Github</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">2ª semana</td>
+                    <td colspan="2">3ª semana</td>
+                    <td colspan="3">4ª semana</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+</body>
+
+</html>

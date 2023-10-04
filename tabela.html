@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" style="margin: 20px">Listas</a>
+            <a href="tabela.html" style="margin: 20px">Tabelas</a>
+            <a href="outros.html" style="margin: 20px">Outros</a>
+            <a href="atividade.html" style="margin: 20px">Atividade</a>
+            <!-- <a href="Javascript.html" style="margin: 20px">Javascript</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <h1>Tabelas HTML</h1>
+        <br>
+        <!-- <h2>Ordenadas</h2> -->
+
+        <table border="1" style="border: 2px dashed green;">
+            <thead>
+                <style>
+                    td {
+                        padding: 20px;
+                    }
+                    th {
+                        padding: 20px;
+                    }
+
+                    tr:nth-child(even){
+                        background-color: aqua;
+                    }
+
+                    
+                </style>
+                <tr>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td colspan="2" rowspan="2">ba</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>dois</td>
+                    <td>três</td>
+                    <td>quatro</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+</body>
+
+</html>
